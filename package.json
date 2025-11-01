@@ -1,0 +1,31 @@
+{
+  "name": "@reallyspecific/bodykit-react",
+  "version": "1.0.0-alpha.0",
+  "description": "React compilation and processing engine for Bodykit",
+  "main": "main.js",
+  "type": "module",
+  "exports": [
+    "./main.js",
+    "./default.webpack.config.js"
+  ],
+  "scripts": {
+    "test:basic": "bodykit --config='./tests/basic.json'",
+    "test:watch": "bodykit --watch --config='./tests/basic.json'"
+  },
+  "dependencies": {
+    "@reallyspecific/bodykit": "^1.6.1-alpha.0",
+    "babel-plugin-react-compiler": "^19.1.0-rc.3",
+    "css-loader": "^7.1.2",
+    "esbuild-loader": "^4.4.0",
+    "mini-css-extract-plugin": "^2.9.4",
+    "react-compiler-webpack": "^0.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.102.1"
+  },
+  "devDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "author": "FLOPS LLC <ops@floatingpoint.cloud>",
+  "license": "GPL-3.0-or-later"
+}

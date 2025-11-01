@@ -1,0 +1,11 @@
+{
+  "build": ["react"],
+  "plugins": ["react"],
+  "in": "./tests/assets",
+  "out": "./tests/dist",
+  "clean": false,
+  "react": {
+    "template": "./template.html",
+    "entry": "./index.jsx"
+  }
+}
